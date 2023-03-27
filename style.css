@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+:root {
+    --field-drab: #614605;
+    --burnt-sienna: #d4815e;
+    --onyx: #303636;
+    --night: #0b090a;
+    --white: whitesmoke;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: var(--night);
+    color: var(--white);
+}
+header {
+    height: 100vh;
+    background: url('d.jpg') fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-center {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--white);
+}
+.banner-underline {
+    width: 300px;
+    border: 3px solid lightgray;
+    margin: 0px auto 20px auto;
+}
+.banner-center a {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 300px;
+    margin: 0px auto;
+    display: inline-block;
+    border: 3px solid var(--white);
+    color: var(--white);
+    border-radius: 20px;
+    text-decoration: none;
+}
+.banner-center a:hover, .banner-center a:focus {
+    color: var(--field-drab);
+    background-color: var(--white);
+}
+.link {
+    color: var(--burnt-sienna);
+}
+.title {
+    margin: 20px 0;
+}
+.title-underline {
+    width: 150px;
+    border: 3px solid lightgray;
+    margin: 0px auto 10px auto;
+}
+#skills {
+    padding: 40px;
+    color: var(--onyx);
+    margin-bottom: 10px;
+}
+#skills .fa {
+    font-size: 100px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#skills a {
+    margin-bottom: 20px;
+    background-color: var(--burnt-sienna);
+    color: var(--white);
+    font-size: 20px;
+}
+#skills a:hover {
+    background-color: var(--white);
+    color: var(--burnt-sienna);
+}
+#about {
+    background-color: var(--onyx);
+    color: var(--white);
+}
+#about .pic {
+    height: 600px;
+    background: url('c.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40rem;
+    background-attachment: fixed;
+    border-bottom: 600px solid transparent;
+    border-left: 100px solid var(--onyx);
+}
+#about .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#contact {
+    padding: 40px;
+    background-color: var(--white);
+}
+#contact .form-control {
+    border-radius: 0 !important;
+    font-size: 20px;
+}
+#contact button {
+    background-color: var(--field-drab);
+    color: var(--white);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#contact button:hover {
+    background-color: var(--white);
+    color: var(--field-drab);
+    font-size: 24px;
+}
+#contact h1 {
+    color: #0b090a;
+}
+.copy {
+    font-size: 25px;
+}
+.copy-title {
+    font-weight: 700;
+    font-size: 75px;
+    color: var(--burnt-sienna);
+}
+.fb, .twitter, .inst {
+    font-size: 30px;
+    color: var(--burnt-sienna);
+}
+.ff {
+    text-decoration: none;
+}
+.fb {
+    margin-right: 10px;
+}
+.inst {
+    margin-left: 10px;
+}
