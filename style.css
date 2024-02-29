@@ -36,7 +36,7 @@ header {
     margin: 0px auto 20px auto;
 }
 .banner-center a {
-    font-size: 30px;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 300px;
     margin: 0px auto;
@@ -106,18 +106,18 @@ header {
 }
 #contact .form-control {
     border-radius: 0 !important;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 #contact button {
     background-color: var(--field-drab);
     color: var(--white);
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
 }
 #contact button:hover {
     background-color: var(--white);
     color: var(--field-drab);
-    font-size: 24px;
+    font-size: 1.75rem;
 }
 #contact h1 {
     color: #0b090a;
@@ -142,4 +142,13 @@ header {
 }
 .inst {
     margin-left: 10px;
+}
+.text-muted {
+    font-size: 1.1rem;
+}
+a {
+    font-size: .8rem;
+}
+a:hover {
+    font-size: .9rem;
 }
