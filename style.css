@@ -143,12 +143,12 @@ header {
 .inst {
     margin-left: 10px;
 }
-.text-muted {
+.font {
+    font-size: 1.25rem;
+}
+.link {
+    font-size: 1rem;
+}
+.link:hover {
     font-size: 1.1rem;
-}
-a {
-    font-size: .8rem;
-}
-a:hover {
-    font-size: .9rem;
 }
