@@ -146,9 +146,13 @@ header {
 .font {
     font-size: 1.25rem;
 }
-.link {
+.links {
     font-size: 1rem;
 }
-.link:hover {
+.links:hover {
     font-size: 1.1rem;
+}
+strong {
+    font-size: 3rem;
+    font-weight: 900;
 }
