@@ -39,7 +39,7 @@ header {
 .banner-center a {
     font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 300px;
+    width: 150px;
     margin: 0px auto;
     display: inline-block;
     border: 3px solid var(--white);
@@ -153,6 +153,4 @@ header {
 .links:hover {
     font-size: 1.1rem;
 }
-.width {
-    width: 10%;
-}
+
