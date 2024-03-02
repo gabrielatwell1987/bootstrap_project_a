@@ -19,7 +19,7 @@ body {
 }
 header {
     height: 100vh;
-    background: url('d.jpg') fixed;
+    background: url('bg-swoosh.jpg') fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
