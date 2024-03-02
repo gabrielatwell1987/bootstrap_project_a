@@ -19,7 +19,7 @@ body {
 }
 header {
     height: 100vh;
-    background: url('d.jpg') fixed;
+    background: url('autumnleaf.jpe') no-repeat center center/cover fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
