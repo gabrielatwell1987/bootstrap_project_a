@@ -19,7 +19,7 @@ body {
 }
 header {
     height: 100vh;
-    background: url('autumnleaf.jpeg') no-repeat center center/cover fixed;
+    background: url('d.jpg') fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,7 +88,7 @@ header {
 }
 #about .pic {
     height: 600px;
-    background: url('c.jpg');
+    background: url('autumnleaf.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 40rem;
