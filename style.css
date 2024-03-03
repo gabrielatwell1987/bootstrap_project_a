@@ -29,7 +29,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: var(--onyx);
+    color: var(--burnt-sienna);
 }
 .banner-underline {
     width: 300px;
