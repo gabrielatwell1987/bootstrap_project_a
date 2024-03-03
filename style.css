@@ -153,4 +153,7 @@ header {
 .links:hover {
     font-size: 1.1rem;
 }
+strong {
+    text-transform: uppercase;
+}
 
