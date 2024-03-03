@@ -152,7 +152,6 @@ header {
     color: var(--onyx);
 }
 .links:hover {
-    font-size: 1.1rem;
     color: black;
 }
 .fe {
