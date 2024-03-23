@@ -24,8 +24,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
-a {
-    transition: all 1s ease-in-out;
+a[href="#skills"] {
+    transition: all 5s ease-in-out;
 }
 .banner-center {
     height: 100vh;
