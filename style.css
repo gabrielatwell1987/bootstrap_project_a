@@ -24,9 +24,6 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
-a[href="#skills"] {
-    transition: all 5s ease-in-out;
-}
 .banner-center {
     height: 100vh;
     display: flex;
@@ -49,6 +46,7 @@ a[href="#skills"] {
     color: var(--white);
     border-radius: 20px;
     text-decoration: none;
+    transition: all 5s ease-in-out;
 }
 .banner-center a:hover, .banner-center a:focus {
     color: var(--field-drab);
