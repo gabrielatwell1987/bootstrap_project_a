@@ -66,6 +66,8 @@ header {
     padding: 40px;
     color: var(--onyx);
     margin-bottom: 10px;
+    
+    transition: all 1s ease-in-out;
 }
 #skills .fa {
     font-size: 100px;
