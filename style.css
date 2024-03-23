@@ -16,8 +16,6 @@ body {
     font-family: 'Barlow Condensed', sans-serif;
     background-color: var(--night);
     color: var(--white);
-
-    transition: all 1s ease-in-out;
 }
 header {
     height: 100vh;
@@ -25,6 +23,9 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+a {
+    transition: all 1s ease-in-out;
 }
 .banner-center {
     height: 100vh;
