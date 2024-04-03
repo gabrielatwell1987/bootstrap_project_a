@@ -162,4 +162,6 @@ header {
 .footer-icons {
     margin-top: 1rem;
 }
-
+#footer {
+    background: #000;
+}
