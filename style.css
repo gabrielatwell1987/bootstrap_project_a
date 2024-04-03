@@ -66,6 +66,7 @@ header {
 #skills {
     padding: 40px;
     color: var(--onyx);
+    background: #242424;
     margin-bottom: 10px;
 }
 #skills .fa {
