@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
     --field-drab: #614605;
@@ -6,6 +7,7 @@
     --onyx: #303636;
     --night: hsla(205, 4%, 7%, 0.5);
     --white: hsla(330, 4%, 90%, 0.65);
+    --serif: "Platypi", serif;
 }
 * {
     box-sizing: border-box;
