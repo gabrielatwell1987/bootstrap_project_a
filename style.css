@@ -160,6 +160,7 @@ header {
 }
 .fe {
     text-transform: uppercase;
+    font-family: var(--serif);
 }
 .footer-icons {
     margin-top: 1rem;
