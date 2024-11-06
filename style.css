@@ -14,6 +14,8 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavios: smooth;
 body {
     font-family: 'Barlow Condensed', sans-serif;
     background-color: var(--night);
